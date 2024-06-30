@@ -1,0 +1,49 @@
+.description-product {
+  h1 {
+    display: flex;
+    justify-content: start;
+    color: #15393f;
+    font-weight: 500;
+    padding: 10px 0px;
+  }
+  .row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+    p {
+      font-size: 20px;
+      color: #15393f;
+      font-weight: 500;
+      margin-right: 10px; // Khoảng cách giữa p và span
+      min-width: 150px; // Đảm bảo các thẻ span cùng hàng dọc
+    }
+
+    span {
+      color: #15393f;
+      font-weight: 400;
+      font-size: 18px;
+    }
+  }
+  .tag {
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px;
+    height: auto;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .button {
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    .button1 {
+      padding: 10px 0px;
+      height: auto;
+      font-size: 16px;
+    }
+  }
+}
+.footer {
+  margin-top: 30px;
+}
